@@ -1,40 +1,31 @@
-![Git-Analysis](https://socialify.git.ci/Anubhav-Ghosh1/Git-Analysis/image?description=1&descriptionEditable=&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark)
+# React & Tailwind CSS Starter Pack
 
-## About
-In This Project, You can get the analysis of Any GitHub User. In this, i used React, GitHub API ( for data fetch) and Netlify ( for deployment )
+This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 
-## Live Demo: [https://github-user-analytics.netlify.app/](https://anubhav-11-git-analysis.netlify.app/)
+## Usage
 
-## React Icons
+This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
 
-[React Icons - Main Docs](https://react-icons.github.io/react-icons/)
+1. Clone the repository to your local machine.
+    ```sh
+    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
+    ```
 
-```jsx
-import { FiUsers, FiUserPlus } from 'react-icons/fi';
-<FiUsers className='nameOfTheClass'> </FiUsers>;
-```
+1. Install the required packages.
+    ```sh
+    cd react-tailwind-css-starter-pack
+    npm install
+    ```
 
-## React Router Dom
+1. Start the development server.
+    ```sh
+    npm start
+    ```
+1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
+1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
-version used - "react-router-dom": "^5.2.0",
+The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
 
-- [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
+## Contributing
 
-- <Switch> renders the first child <Route> that matches
-- A <Route path="*"> always matches
-
-## Github API
-
-- [Root Endpoint](https://api.github.com)
-- [Get User](https://api.github.com/users/Siddhant-K-code)
-- [Repos](https://api.github.com/users/Siddhant-K-code/repos?per_page=100)
-- [Followers](https://api.github.com/users/Siddhant-K-code/followers)
-- [Rate Limit](https://api.github.com/rate_limit)
-
-  For unauthenticated requests, the rate limit allows for up to 60 requests per hour. Unauthenticated requests are associated with the originating IP address, and not the user making requests.
-
-## For Deployment
-```
-npm run build
-// it builds and version of the project which can be deployed
-```
+Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
